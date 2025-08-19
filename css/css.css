@@ -5,6 +5,12 @@
     background-attachment: fixed;
     
 }
+@media (max-width: 768px) {
+  .header {
+    background-attachment: scroll;
+  }
+}
+
 .navbar-brand {
     font-size: 28px;
     font-weight: 600;
@@ -19,6 +25,7 @@ body{
     
     background-color:rgb(253, 253, 247);
     position: relative;
+    overflow-x: hidden;
 }
 .caption{
     width: 100%;
